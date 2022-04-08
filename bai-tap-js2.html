@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+User:<br> <input type="text" name="in" id="ten"><br>
+Pass:<br> <input type="password" name="pass" id="mk"><br>
+Email:<br> <input type="email" name="email" id="mail"><br>
+Phone: <br> <input type="text" name="phone" id="phone"><br><br>
+<button type="submit" onclick="gui();">Submit </button>
+
+</body>
+</html>
+<script>
+    function gui(){
+        let a = document.getElementById("ten").value;
+        let b = document.getElementById("mk").value;
+        let c = document.getElementById("mail").value;
+        let d = document.getElementById("phone").value;
+       alert(a);
+       alert(b);
+       alert(c);
+       alert(d);
+
+    }
+</script>
